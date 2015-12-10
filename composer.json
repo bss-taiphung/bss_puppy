@@ -1,5 +1,5 @@
 {
-  "name": "bss_taiphung/bss_puppy",
+  "name": "bss-taiphung/bss_puppy",
   "description": "Puppy bark",
   "authors": [
     {
@@ -13,7 +13,7 @@
     {
       "type": "package",
       "package": {
-        "name": "bss_taiphung/bss_puppy",
+        "name": "bss-taiphung/bss_puppy",
         "version": "dev-master",
         "source": {
           "url": "git@github.com:bss-taiphung/bss_puppy.git",
