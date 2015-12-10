@@ -5,7 +5,7 @@
 In the `require` key of `composer.json` file add the following
 
 ```json
-"bss-taiphung/bss_puppy": "1.0.0"
+"bss-taiphung/bss_puppy": "1.0.*"
 ```
 
 Run the Composer update command
