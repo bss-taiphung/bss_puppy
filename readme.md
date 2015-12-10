@@ -2,12 +2,10 @@
 
 ## Quick start
 
-### Required setup
-
 In the `require` key of `composer.json` file add the following
 
 ```json
-"bss-taiphung/bss_puppy": "dev-master"
+"bss-taiphung/bss_puppy": "1.0.0"
 ```
 
 Run the Composer update command
@@ -37,7 +35,7 @@ At the end of `config/app.php` add `'Puppy'  => bss_taiphung\puppy\Facades\Puppy
 ),
 ```
 
-### Usage in detail
+## Usage in detail
 
 ```php
 Puppy::bark() => puppy is barking!
