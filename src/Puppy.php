@@ -5,6 +5,7 @@
  * Date: 12/9/15
  * Time: 8:01 PM
  */
+
 abstract class puppy
 {
     public function bark()

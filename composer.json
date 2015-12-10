@@ -7,7 +7,7 @@
       "email": "tai.phung@beesightsoft.com"
     }
   ],
-  "minimum-stability": "stable",
+  "preferred-install": "stable",
   "require": {},
   "repositories": [
     {
