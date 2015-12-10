@@ -1,4 +1,4 @@
-<?php namespace bss_taiphung\puppy;
+<?php namespace bss_taiphung\puppy\CustomClasses;
 /**
  * Created by PhpStorm.
  * User: bss_taiphung

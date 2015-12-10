@@ -1,4 +1,5 @@
-<?php namespace bss_taiphung\puppy;
+<?php namespace bss_taiphung\puppy\Providers;
+
 /**
  * Created by PhpStorm.
  * User: nasterblue
@@ -6,15 +7,30 @@
  * Time: 3:46 PM
  */
 use Illuminate\Support\ServiceProvider;
+use bss_taiphung\puppy\Puppy;
 
+class PuppyServiceProvider extends ServiceProvider
+{
 
+    /**
+     * Bootstrap the application services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        //
+    }
 
-class PuppyServiceProvider extends ServiceProvider  {
+    /**
+     * Register the application services.
+     *
+     * @return void
+     */
     public function register()
     {
-        $this->app->bind('Puppy', function()
-        {
-            return new \bss_taiphung\puppy\Puppy;
+        $this->app->bind('Puppy', function () {
+            return new Puppy;
         });
     }
 }
