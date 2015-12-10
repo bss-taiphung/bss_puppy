@@ -12,9 +12,9 @@ use Illuminate\Support\ServiceProvider;
 class PuppyServiceProvider extends ServiceProvider  {
     public function register()
     {
-        $this->app->bind('BSSPuppy', function()
+        $this->app->bind('Puppy', function()
         {
-            return new Puppy;
+            return new \bss_taiphung\puppy\Puppy;
         });
     }
 }

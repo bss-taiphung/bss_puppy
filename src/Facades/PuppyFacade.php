@@ -12,6 +12,6 @@ class PuppyFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \bss_taiphung\puppy\Puppy::class;
+        return 'Puppy';
     }
 }
