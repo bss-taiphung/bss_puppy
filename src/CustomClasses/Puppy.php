@@ -20,6 +20,11 @@ class Puppy
 
     public function bark()
     {
-        return 'puppy is barking';
+        return 'puppy is barking!';
+    }
+
+    public function run()
+    {
+        return 'puppy is running!';
     }
 }
