@@ -1,4 +1,4 @@
-<?php namespace bss_taiphung\puppy\Providers;
+<?php namespace bss_taiphung\puppy\ServiceProviders;
 
 /**
  * Created by PhpStorm.
@@ -7,7 +7,7 @@
  * Time: 3:46 PM
  */
 use Illuminate\Support\ServiceProvider;
-use bss_taiphung\puppy\Puppy;
+use bss_taiphung\puppy\CustomClasses\Puppy;
 
 class PuppyServiceProvider extends ServiceProvider
 {
