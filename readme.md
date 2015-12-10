@@ -40,4 +40,6 @@ At the end of `config/app.php` add `'Puppy'  => bss_taiphung\puppy\Facades\Puppy
 ```php
 Puppy::bark() => puppy is barking!
 Puppy::run() => puppy is running!
+
+GET /randomQuote  => puppy is barking!
 ```

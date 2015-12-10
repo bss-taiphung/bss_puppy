@@ -10,9 +10,9 @@
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Config;
 
-class PuppyController extends Controller
+class InspireController extends Controller
 {
-    public function bark(){
-        return Config::get('config.bark');
+    public function randomQuote(){
+        return \Illuminate\Foundation\Inspiring::quote();
     }
 }

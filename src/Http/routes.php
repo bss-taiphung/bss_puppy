@@ -11,8 +11,5 @@
 |
 */
 
-Route::get('/', function () {
 
-});
-
-Route::get('/bark','PuppyController@bark');
+Route::get('/randomQuote','InspireController@randomQuote');
