@@ -21,7 +21,10 @@ class PuppyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app->router->group(['namespace' => $this->namespace],
+        $this->app->router->group([
+            'prefix' => 'quote',
+            'namespace' => $this->namespace
+        ],
             function () {
                 require __DIR__ . '/Http/routes.php';
             });
