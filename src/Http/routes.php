@@ -14,4 +14,4 @@
 
 
 
-Route::get('randomQuote','InspireController@randomQuote');
+Route::get('/randomQuote','InspireController@randomQuote');

@@ -8,10 +8,16 @@
  */
 
 use App\Http\Controllers\Controller;
+use Illuminate\Foundation\Inspiring;
 
 class InspireController extends Controller
 {
-    public function randomQuote(){
-        return \Illuminate\Foundation\Inspiring::quote();
+    public function randomQuote()
+    {
+        try {
+            return Inspiring::quote();
+        } catch (\Exception $e) {
+            return $e->getMessage();
+        }
     }
 }
