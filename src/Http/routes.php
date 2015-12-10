@@ -11,4 +11,7 @@
 |
 */
 
+
+
+
 Route::get('randomQuote','InspireController@randomQuote');
