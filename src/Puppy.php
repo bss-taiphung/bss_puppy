@@ -6,8 +6,17 @@
  * Time: 8:01 PM
  */
 
-abstract class puppy
+class Puppy
 {
+    public function __construct()
+    {
+
+    }
+
+    public function make(){
+        return new Puppy();
+    }
+
     public function bark()
     {
         return 'puppy is barking';
