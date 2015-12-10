@@ -1,4 +1,4 @@
-#Puppy package
+#Puppy package for laravel 5
 
 ## Quick start
 
