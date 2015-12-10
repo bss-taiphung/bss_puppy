@@ -22,7 +22,6 @@ class PuppyServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->app->router->group([
-            'prefix' => 'quote',
             'namespace' => $this->namespace
         ],
             function () {
