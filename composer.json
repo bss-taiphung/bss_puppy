@@ -9,6 +9,9 @@
   ],
   "preferred-install": "stable",
   "require": {},
+  "classmap": [
+    "src/Http/controllers"
+  ],
   "autoload": {
     "psr-4": {
       "App\\": "app/",

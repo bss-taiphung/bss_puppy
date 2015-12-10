@@ -12,6 +12,8 @@ use bss_taiphung\puppy\CustomClasses\Puppy;
 class PuppyServiceProvider extends ServiceProvider
 {
 
+    protected $namespace = 'bss_taiphung\puppy\Http\Controllers';
+
     /**
      * Bootstrap the application services.
      *
@@ -19,7 +21,10 @@ class PuppyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->router->group(['namespace' => $this->namespace],
+            function () {
+                require __DIR__ . '/Http/routes.php';
+            });
     }
 
     /**
@@ -33,4 +38,6 @@ class PuppyServiceProvider extends ServiceProvider
             return new \bss_taiphung\puppy\CustomClasses\Puppy;
         });
     }
+
+
 }
