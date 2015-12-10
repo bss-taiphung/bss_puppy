@@ -10,7 +10,7 @@
   "preferred-install": "stable",
   "require": {},
   "classmap": [
-    "src/Http/controllers"
+    "src/Http/Controllers"
   ],
   "autoload": {
     "psr-4": {
