@@ -1,10 +1,10 @@
 {
-  "name": "bss_taiphung/puppy",
+  "name": "bss_taiphung/bss_puppy",
   "description": "Puppy bark",
   "authors": [
     {
       "name": "Tai Phung",
-      "email": "tai.phung@rainmaker-labs.com"
+      "email": "tai.phung@beesightsoft.com"
     }
   ],
   "minimum-stability": "dev",
@@ -13,12 +13,12 @@
     {
       "type": "package",
       "package": {
-        "name": "bss_taiphung/puppy",
+        "name": "bss_taiphung/bss_puppy",
         "version": "dev-master",
         "source": {
-          "url": "mybitbucketurl",
+          "url": "git@github.com:bss-taiphung/bss_puppy.git",
           "type": "git",
-          "reference": "origin/puppy"
+          "reference": "origin/master"
         },
         "autoload": {
           "psr-4": {"": "src/"}
