@@ -13,7 +13,8 @@ class Puppy
 
     }
 
-    public function make(){
+    public function make()
+    {
         return new Puppy();
     }
 
