@@ -38,8 +38,10 @@ At the end of `config/app.php` add `'Puppy'  => bss_taiphung\puppy\Facades\Puppy
 ## Usage in detail
 
 ```php
+###Facade
 Puppy::bark() => puppy is barking!
 Puppy::run() => puppy is running!
 
-GET /randomQuote  => ... 
+###API 
+GET /randomQuote  => Smile, breathe, and go slowly. - Thich Nhat Hanh
 ```
